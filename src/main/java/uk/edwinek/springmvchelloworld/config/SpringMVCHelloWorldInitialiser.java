@@ -1,4 +1,4 @@
-package com.example.edwinek.springmvchelloworld.config;
+package uk.edwinek.springmvchelloworld.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

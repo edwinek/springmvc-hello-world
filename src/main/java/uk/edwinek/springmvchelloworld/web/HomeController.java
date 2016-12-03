@@ -1,4 +1,4 @@
-package com.example.edwinek.springmvchelloworld.web;
+package uk.edwinek.springmvchelloworld.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ public class HomeController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
-        logger.info("Home initialised.");
+        logger.info("Request made to home.");
         return "home";
     }
 
